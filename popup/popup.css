@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+  }
+
+  h1 {
+    color: #4285F4;
+  }
+
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .input-container label {
+    font-weight: bold;
+  }
+
+  .input-container input[type="password"] {
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  .stored-key {
+    margin-top: 20px;
+    color: #666;
+  }
+
+  .button-container {
+    margin-top: 30px;
+  }
+
+  .button {
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
